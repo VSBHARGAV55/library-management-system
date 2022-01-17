@@ -1,4 +1,4 @@
-# 3dev-fullstack, learn fullstack! (MERN Stack)
+
 [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/threedevs/3dev-fullstack/blob/master/LICENSE)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
 [![GitHub issues](https://img.shields.io/github/issues/threedevs/3dev-fullstack/task?color=green&label=tasks)](https://GitHub.com/threedevs/3dev-fullstack/issues)
@@ -20,11 +20,8 @@
 
 ## current state
 ![current](documentation/state.png 'Current State')
-## goal of this repository (vision)
-create a plex-like book library, with multiple books and user authentication, with the addition of having anki cards and even more to come...
-![layout](documentation/Layout.png 'Layout/Vision')
 ## contribute
-If you have spare time, you can always make an addition to the system! If you have something different in mind, just DM @kwlski on DC. There is a list of issues to pick from.
+If you have spare time, you can always make an addition to the system! If you have something different in mind, just DM @VSBHARGAV55. There is a list of issues to pick from.
 ### how to
 -   implement one of the possible issues, assign the issue to yourself, if you are a beginner I can help you getting your changes to github
 -   push your feature to a non protected branch, hereby we name the branch after the task it fulfills, in small letters. For example I make a documentation file for routes, so we are going to name the branch "routesdoc"
