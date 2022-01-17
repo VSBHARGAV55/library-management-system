@@ -1,0 +1,37 @@
+{
+  "name": "learning",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "engines": {
+    "node": "12.7.0"
+  },
+  "scripts": {
+    "test": "mocha test",
+    "start": "node server.js",
+    "frontend": "cd frontend && npm i && npm start && cd ..",
+    "backend": "npm run mongo-up && nodemon server.js",
+    "mongo-up": "cd mongo-replicaset && docker-compose up -d && cd ..",
+    "mongo-down": "cd mongo-replicaset && docker-compose down && cd ..",
+    "apidoc": "./node_modules/.bin/apidoc -i routers -o out/"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.6.1",
+    "mongoose": "^5.10.9",
+    "mongoose-unique-validator": "^2.0.3"
+  },
+  "devDependencies": {
+    "apidoc": "^0.25.0",
+    "faker": "^5.1.0",
+    "jsdoc": "^3.6.6",
+    "mocha": "^8.2.1",
+    "nodemon": "^2.0.6",
+    "request": "^2.88.2",
+    "supertest": "^6.0.1"
+  }
+}
